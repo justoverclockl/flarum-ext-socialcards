@@ -12,19 +12,18 @@ Admin can choose the link of personal social pages, and enable/disable them one 
 Install with composer:
 
 ```sh
-composer require justoverclock/flarum-ext-socialcards:"*"
+composer require justoverclock/flarum-ext-socialcards
 ```
 
 ### Updating
 
 ```sh
-composer update justoverclock/flarum-ext-socialcards:"*"
-php flarum migrate
+composer update justoverclock/flarum-ext-socialcards
 php flarum cache:clear
 ```
 
 ### Links
 
 - [Packagist](https://packagist.org/packages/justoverclock/flarum-ext-socialcards)
-- [GitHub](https://github.com/justoverclock/flarum-ext-socialcards)
-- [Discuss](https://discuss.flarum.org/d/PUT_DISCUSS_SLUG_HERE)
+- [GitHub](https://github.com/justoverclockl/flarum-ext-socialcards)
+- [Discuss](https://flarum.it/d/90-flarum-socialcards)
