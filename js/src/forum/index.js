@@ -25,5 +25,11 @@ app.initializers.add('justoverclock/flarum-ext-socialcards', () => {
       ]);
       vdom.children.splice(3, 0, insert);
     }
+    if (app.forum.attribute('ShowGithub') === true) {
+      const insert = m('div', { class: 'sticky-icongh' }, [
+        m('a', { class: 'Github', href: app.forum.attribute('ghlink'), target: '_blank' }, [m('i', { class: 'fab fa-github-alt' }), ' GitHub ']),
+      ]);
+      vdom.children.splice(4, 0, insert);
+    }
   });
 });

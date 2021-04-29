@@ -7,3 +7,5 @@ flarum-ext-socialcards:
       ytlink: Youtube Link
       showtwitter: Enable Twitter
       twlink: Twitter Link
+      ghlink: GitHub Link
+      showGithub: Enable GitHub

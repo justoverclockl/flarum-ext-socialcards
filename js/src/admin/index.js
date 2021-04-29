@@ -38,4 +38,16 @@ app.initializers.add('justoverclock/flarum-ext-socialcards', () => {
     label: app.translator.trans('flarum-ext-socialcards.admin.settings.twlink'),
     help: 'e.g. https://www.twitter.com',
   });
+  app.extensionData.for('justoverclock-socialcards').registerSetting({
+    setting: 'justoverclock-socialcards.hide.github',
+    label: app.translator.trans('flarum-ext-socialcards.admin.settings.showGithub'),
+    type: 'boolean',
+  });
+  app.extensionData.for('justoverclock-socialcards').registerSetting({
+    setting: 'justoverclock-guestengagement.ghlink',
+    name: 'ghlink',
+    type: 'url',
+    label: app.translator.trans('flarum-ext-socialcards.admin.settings.ghlink'),
+    help: 'e.g. https://www.github.com',
+  });
 });
